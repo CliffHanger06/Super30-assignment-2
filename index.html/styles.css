@@ -6,23 +6,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #c9d380;
+    background-color: darkblue;
     padding: 2rem;
 }
 
 h1{
     text-align: center;
     margin-bottom: 3rem;
+    color: white;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(5, minmax(250px, 1fr));
     gap: 1.5rem;
 }
 
 .card {
-    background-color: rgb(110, 156, 221);
+    background-color: rgb(41, 211, 205);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
