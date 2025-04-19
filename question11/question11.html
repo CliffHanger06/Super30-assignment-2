@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Responsive Layout</title>
+  <link rel="stylesheet" href="question11.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <header>
+      <div class="header-container">
+        <div class="logo">Modern Web Design</div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Get in Touch</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <aside>
+      <div class="sidebar-container">
+        <h2>Explore Topics</h2>
+        <ul class="sidebar-links">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Digital Marketing</a></li>
+          <li><a href="#">SEO Optimization</a></li>
+          <li><a href="#">Content Creation</a></li>
+        </ul>
+      </div>
+    </aside>
+    
+    <main>
+      <div class="content-container">
+        <div class="card">
+          <h2>Welcome to Modern Web Design</h2>
+          <p>Discover the art of creating stunning, responsive websites that captivate audiences and deliver exceptional user experiences.</p>
+          <p>Our layouts are designed to adapt seamlessly to any device, ensuring your content looks great everywhere.</p>
+        </div>
+        
+        <div class="card">
+          <h2>Our Expertise</h2>
+          <p>We specialize in:</p>
+          <ul>
+            <li>Crafting intuitive user interfaces</li>
+            <li>Building robust web applications</li>
+            <li>Enhancing online visibility through SEO</li>
+            <li>Creating engaging digital content</li>
+            <li>Delivering tailored solutions for businesses</li>
+          </ul>
+        </div>
+        
+        <div class="card">
+          <h2>Get Started Today</h2>
+          <p>Ready to elevate your online presence? Let us help you bring your vision to life with cutting-edge web design and development services.</p>
+          <p>Contact us to learn more about how we can transform your ideas into reality.</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Modern Web Design. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  
+  <script>
+    // Simple toggle for mobile menu
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('show');
+    });
+  </script>
+</body>
+</html>

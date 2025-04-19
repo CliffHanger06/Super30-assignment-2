@@ -1,0 +1,16 @@
+
+.box-model {
+    
+    margin: 15px;
+    border: 10px solid black;
+    padding: 7 px;
+    background-color: lightblue;
+    width: 400px;
+    height: 300px;
+    display: flex;
+  }
+  .fancy-text {
+    color: black;
+    font-size: 30px;
+    text-align: center ;
+  }

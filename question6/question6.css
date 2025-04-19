@@ -1,0 +1,60 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .class-schedule {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .class-schedule , .class-schedule td {
+    border: 0.3px solid;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .class-schedule th {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+  }
+
+  .class-schedule tr:hover {
+    background-color: rgba(212, 196, 196, 0.318);
+  }
+
+  .class-schedule tfoot td {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+  }
+  .class-schedule td:nth-child(1) {
+    background-color: burlywood; 
+}
+
+.class-schedule td:nth-child(2) {
+    background-color: red; 
+}
+
+.class-schedule td:nth-child(3) {
+    background-color: pink; 
+}
+
+.class-schedule td:nth-child(4) {
+    background-color: purple
+}
+
+.class-schedule td:nth-child(5) {
+    background-color: cyan 
+}
+
+.class-schedule td:nth-child(6) {
+    background-color: green 
+}

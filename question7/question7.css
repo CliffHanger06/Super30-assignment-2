@@ -1,0 +1,72 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 2px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+form input:focus {
+    border-color: green;
+    outline: none ;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form input[type="radio"]:focus {
+    outline: 2px solid red;
+}
+
+form {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
